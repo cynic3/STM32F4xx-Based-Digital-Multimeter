@@ -1,0 +1,14 @@
+*.uvprojx binary
+*.uvoptx binary
+*.uvguix.* binary
+
+
+JLinkLog.txt text
+
+
+*.c text
+*.h text
+*.txt text
+*.ld text
+*.s text
+*.S text
