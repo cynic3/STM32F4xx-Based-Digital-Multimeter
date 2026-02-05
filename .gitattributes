@@ -1,14 +1,37 @@
-*.uvprojx binary
-*.uvoptx binary
-*.uvguix.* binary
+# Keil MDK generated files
+*.bak
+*.ddk
+*.edk
+*.lst
+*.lnp
+*.mpf
+*.mpj
+*.plg
+*.rpt
+*.tmp
+*.sct
+*.crf
+*.o
+*.d
+*.axf
+*.htm
+*.tra
+*.dep
+*.iex
+*.siz
+*.map
+*.scf
+JLinkLog.txt
+JLinkSettings.ini
 
+# Build folders
+MDK-ARM/*.build_log.htm
+MDK-ARM/Objects/
+MDK-ARM/Listings/
 
-JLinkLog.txt text
+# User-specific uvguix files (optional: you can keep one if needed, but usually ignore)
+# *.uvguix.*
 
-
-*.c text
-*.h text
-*.txt text
-*.ld text
-*.s text
-*.S text
+# Other
+.DS_Store
+Thumbs.db
